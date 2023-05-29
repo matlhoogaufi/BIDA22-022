@@ -1,0 +1,346 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.action{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 4px;
+    color: white;
+    margin-top: -13px;
+    margin-left: -8px;
+}
+
+.action h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.action-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+}
+
+.action-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.action-inside img{
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.action-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.comedy{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 400px;
+    margin-left: -8px;
+}
+
+.comedy h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.comedy-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comedy-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.comedy-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.comedy-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.animation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 800px;
+    margin-left: -8px;
+}
+
+.animation h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.animation-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animation-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.animation-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.animation-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.romance{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 1230px;
+    margin-left: -8px;
+}
+
+.romance h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.romance-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.romance-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.romance-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.romance-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.horror{
+    position: absolute;
+    width: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 1630px;
+    margin-left: -8px;
+}
+
+.horror h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.horror-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horror-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.horror-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.horror-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.thriller{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 2000px;
+    margin-left: -8px;
+}
+
+.thriller h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.thriller-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thriller-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.thriller-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.thriller-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.scifi{
+    position: absolute;
+    width: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 2400px;
+    margin-left: -8px;
+}
+
+.scifi h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.scifi-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scifi-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.scifi-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.scifi-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 2775px;
+    height: 20vh;
+    color: white;
+    background: rgb(43, 40, 40);
+    width: 100%;
+    margin-left: -8px;
+}
+
+.logosection img{
+    height: 7vh;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.logosection h1{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrights{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: aquamarine;
+}
+
+.btn3{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.btn3 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: black;
+    background: aquamarine;
+    border-radius: 30px;
+}
+

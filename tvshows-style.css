@@ -1,0 +1,347 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.tv-shows{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 4px;
+    color: white;
+    margin-top: -13px;
+    margin-left: -8px;
+}
+
+.tv-shows h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.showscontainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+}
+
+.showsinside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.showsinside img{
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.showsinside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+.korean{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 400px;
+    margin-left: -8px;
+}
+
+.korean h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.korean-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.korean-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.korean-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.korean-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.american{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 800px;
+    margin-left: -8px;
+}
+
+.american h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.american-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.american-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.american-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.american-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.crime{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 1230px;
+    margin-left: -8px;
+}
+
+.crime h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.crime-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crime-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.crime-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.crime-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.kids{
+    position: absolute;
+    width: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 1630px;
+    margin-left: -8px;
+}
+
+.kids h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.kids-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kids-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.kids-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.kids-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.teen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 2000px;
+    margin-left: -8px;
+}
+
+.teen h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.teen-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teen-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.teen-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.teen-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.reality{
+    position: absolute;
+    width: 100%;
+    background: black;
+    padding: 2px 2px;
+    color: white;
+    margin-top: 2400px;
+    margin-left: -8px;
+}
+
+.reality h1{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.reality-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reality-inside img{
+    height: 260px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.reality-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.reality-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.footer{
+    position: absolute;
+    margin-top: 2775px;
+    height: 20vh;
+    color: white;
+    background: rgb(43, 40, 40);
+    width: 100%;
+    margin-left: -8px;
+}
+
+.logosection img{
+    height: 7vh;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.logosection h1{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrights{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: aquamarine;
+}
+
+.btn3{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.btn3 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: black;
+    background: aquamarine;
+    border-radius: 30px;
+}
